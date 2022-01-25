@@ -80,8 +80,38 @@
     <ClCompile Include="mod_hoedown.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="cpp.hint" />
+    <ClCompile Include="hoedown\src\html.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hoedown\src\html_blocks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hoedown\src\html_smartypants.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hoedown\src\html5_blocks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hoedown\src\stack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hoedown\src\version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hoedown\src\autolink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hoedown\src\buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hoedown\src\document.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hoedown\src\escape.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hoedown\src\hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

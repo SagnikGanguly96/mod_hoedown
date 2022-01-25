@@ -22,8 +22,10 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{930c2640-6eb3-4767-a3f6-483e2d5ab8ce}</ProjectGuid>
-    <RootNamespace>modhoextdown</RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>mod_hoedown</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -74,39 +76,43 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)\Output\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)\Intermediate\$(Configuration)\$(Platform)\</IntDir>
-    <IncludePath>G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\include\win32;$(IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
-    <ExternalIncludePath>$(ProjectDir)hoedown\src;G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\include\win32;$(IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
-    <LibraryPath>G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\lib\win32;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <IncludePath>$(ProjectDir)hoedown\src;G:\Desktop\Dependencies\Apache\HTTPD2.4\include\win32;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Desktop\Dependencies\Apache\HTTPD2.4\lib\win32;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>$(ProjectDir)hoedown\src;G:\Desktop\Dependencies\Apache\HTTPD2.4\include\win32;$(IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+    <TargetExt>.so</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)\Output\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)\Intermediate\$(Configuration)\$(Platform)\</IntDir>
-    <IncludePath>G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\include\win32;$(IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
-    <ExternalIncludePath>$(ProjectDir)hoedown\src;G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\include\win32;$(IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
-    <LibraryPath>G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\lib\win32;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <IncludePath>$(ProjectDir)hoedown\src;G:\Desktop\Dependencies\Apache\HTTPD2.4\include\win32;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Desktop\Dependencies\Apache\HTTPD2.4\lib\win32;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>$(ProjectDir)hoedown\src;G:\Desktop\Dependencies\Apache\HTTPD2.4\include\win32;$(IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+    <TargetExt>.so</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\include\x64;$(IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
-    <ExternalIncludePath>$(ProjectDir)hoedown\src;G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\include\x64;$(IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
-    <LibraryPath>G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\lib\x64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <IncludePath>$(ProjectDir)hoedown\src;$(ProjectDir)hoedown\src;G:\Desktop\Dependencies\Apache\HTTPD2.4\include\x64;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Desktop\Dependencies\Apache\HTTPD2.4\lib\x64;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>$(ProjectDir)hoedown\src;G:\Desktop\Dependencies\Apache\HTTPD2.4\include\x64;$(IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
     <OutDir>$(SolutionDir)\Output\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)\Intermediate\$(Configuration)\$(Platform)\</IntDir>
+    <TargetExt>.so</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\include\x64;$(IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
-    <ExternalIncludePath>$(ProjectDir)hoedown\src;G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\include\x64;$(IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
-    <LibraryPath>G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\lib\x64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <IncludePath>$(ProjectDir)hoedown\src;$(ProjectDir)hoedown\src;G:\Desktop\Dependencies\Apache\HTTPD2.4\include\x64;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Desktop\Dependencies\Apache\HTTPD2.4\lib\x64;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>$(ProjectDir)hoedown\src;G:\Desktop\Dependencies\Apache\HTTPD2.4\include\x64;$(IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
     <OutDir>$(SolutionDir)\Output\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)\Intermediate\$(Configuration)\$(Platform)\</IntDir>
+    <TargetExt>.so</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;MODHOEXTDOWN_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;MODHOEXTDOWN_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -117,7 +123,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalLibraryDirectories>$(ProjectDir)hoedown\lib\x86;G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\lib\win32</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)hoedown\lib\x86;G:\Desktop\Dependencies\Apache\HTTPD2.4\lib\win32</AdditionalLibraryDirectories>
       <AdditionalDependencies>apr-1.lib;aprutil-1.lib;libapr-1.lib;libapreq2.lib;libapriconv-1.lib;libaprutil-1.lib;libhttpd.lib;mod_apreq2.lib;mod_dav.lib;mod_perl.lib;mod_proxy.lib;xml.lib;Hoextdown.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -127,7 +133,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;MODHOEXTDOWN_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;MODHOEXTDOWN_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -141,14 +147,14 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <AdditionalDependencies>apr-1.lib;aprutil-1.lib;libapr-1.lib;libapreq2.lib;libapriconv-1.lib;libaprutil-1.lib;libhttpd.lib;mod_apreq2.lib;mod_dav.lib;mod_perl.lib;mod_proxy.lib;xml.lib;Hoextdown.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)hoedown\lib\x86;G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\lib\win32</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)hoedown\lib\x86;G:\Desktop\Dependencies\Apache\HTTPD2.4\lib\win32</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;MODHOEXTDOWN_EXPORTS;_WINDOWS;_USRDLL;APREQ_DECLARE_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;MODHOEXTDOWN_EXPORTS;_WINDOWS;_USRDLL;APREQ_DECLARE_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -159,7 +165,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalLibraryDirectories>$(ProjectDir)hoedown\lib\x64;G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)hoedown\lib\x64;G:\Desktop\Dependencies\Apache\HTTPD2.4\lib\x64</AdditionalLibraryDirectories>
       <AdditionalDependencies>apr-1.lib;aprutil-1.lib;libapr-1.lib;libapreq2.lib;libapriconv-1.lib;libaprutil-1.lib;libhttpd.lib;mod_apreq2.lib;mod_dav.lib;mod_perl.lib;mod_proxy.lib;xml.lib;Hoextdown.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -169,7 +175,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;MODHOEXTDOWN_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;MODHOEXTDOWN_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -183,7 +189,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <AdditionalDependencies>apr-1.lib;aprutil-1.lib;libapr-1.lib;libapreq2.lib;libapriconv-1.lib;libaprutil-1.lib;libhttpd.lib;mod_apreq2.lib;mod_dav.lib;mod_perl.lib;mod_proxy.lib;xml.lib;Hoextdown.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)hoedown\lib\x64;G:\Projects\VisualStudio\Common\Dependencies\Apache\apache2_4\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)hoedown\lib\x64;G:\Desktop\Dependencies\Apache\HTTPD2.4\lib\x64</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -209,10 +215,18 @@
     <ClInclude Include="hoedown\src\version.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="hoedown\src\autolink.c" />
+    <ClCompile Include="hoedown\src\buffer.c" />
+    <ClCompile Include="hoedown\src\document.c" />
+    <ClCompile Include="hoedown\src\escape.c" />
+    <ClCompile Include="hoedown\src\hash.c" />
+    <ClCompile Include="hoedown\src\html.c" />
+    <ClCompile Include="hoedown\src\html5_blocks.c" />
+    <ClCompile Include="hoedown\src\html_blocks.c" />
+    <ClCompile Include="hoedown\src\html_smartypants.c" />
+    <ClCompile Include="hoedown\src\stack.c" />
+    <ClCompile Include="hoedown\src\version.c" />
     <ClCompile Include="mod_hoedown.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
